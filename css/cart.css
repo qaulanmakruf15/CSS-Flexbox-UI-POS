@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Nunito:wght@400;700;800&display=swap');
+
+
+.container {
+  font-family: 'Nunito', sans-serif;
+  max-width: 470px;
+  height: 450px;
+  margin: 3em auto;
+  background-color: #ffff;
+  padding: 0 0 0 0;
+  border-radius: 0.5rem;
+  border: solid #ccc 1px;
+}
+
+body {
+  width: 100%; height: 100%;
+}
+.mess {
+  display: flex;
+  padding-left: 20px;
+  padding-top:12px;
+  height:30px;
+ 
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+}
+
+.mess2 {
+  display:flex;
+  padding-left: 180px;
+  padding-bottom:10px;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight:400;
+}
+
+.mess3 {
+  display: flex;
+  font-size:12px;
+  height:25px;
+  padding-left: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight:400;
+}
+
+.price {
+  display:flex;
+  padding-left: 170px ;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+   font-weight:400;
+}
+
+.ppn{
+  display: flex;
+  /* font-weight:400; */
+  padding-left: 281px;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+   font-weight:400;
+}
+
+.mess4 {
+  display: flex;
+  padding-left: 310px;
+  padding-top:15px;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-weight:400;
+}
+
+.mess5 {
+  display: flex;
+  padding-left: 20px;
+  padding-top:12px;
+  height:30px;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif;
+ font-weight:400;
+ 
+}
+
+
+.btn {
+  justify-content: center;
+  align-items: center ;
+  font-family: 'Nunito', sans-serif;
+  font-size:15px;
+  border: none;
+  color: white;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+  .info-check {
+      background-color: #2196F3;
+  }
+  .info-check:hover {
+      background: #0b7dda;
+  }
+
+ .info-cancel {
+    background-color: #FF1493;
+}
+.info-cancel:hover {
+    background:  #C71585;
+}
+
+.cart-total-button{
+  line-height:5px;
+  text-align:center;
+  font-family: 'Nunito', sans-serif;
+}

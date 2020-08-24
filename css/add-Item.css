@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Nunito:wght@400;700;800&display=swap');
+
+.container {
+   font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  max-width: 500px;
+  margin: 2em auto;
+  background-color: #fff;
+  padding: 1rem ;
+  border-radius: 1rem;
+  border: solid #ccc 1px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+  flex-wrap: wrap;
+}
+label {
+  flex: 1;
+  padding: 1em 0em;
+}
+input,
+select,
+textarea {
+  flex: 3;
+  padding: 1em;
+}
+
+#area,
+.col {
+  flex-grow: 1;
+}
+
+input {
+  margin: 0.5em;
+  border: 1px solid #bbb;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+select {
+  margin: 0.5em;
+  border: 1px solid #bbb;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.btn {
+  border: none;
+  border-radius:5px;
+  background: #C71585;
+  color: #ffffff;
+  font-size: 1em;
+  width: 125px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn2 {
+  border:none;
+  border-radius:5px;
+  background:#57CAD5;
+  color: #ffffff;
+  font-size: 1em;
+  width: 125px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.invalid-feedback {
+  display: none;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+  flex: 100%;
